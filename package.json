@@ -1,0 +1,31 @@
+{
+  "name": "deutsch-api",
+  "version": "1.0.0",
+  "description": "This small API to learn german language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nellikhvan/deutsch-api.git"
+  },
+  "author": "Nelli Khvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nellikhvan/deutsch-api/issues"
+  },
+  "homepage": "https://github.com/nellikhvan/deutsch-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "jsonschema": "^1.4.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-compress": "^5.0.1",
+    "koa-router": "^10.0.0",
+    "sequelize": "^6.3.5"
+  }
+}
